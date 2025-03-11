@@ -1,0 +1,10 @@
+spring:
+  rabbitmq:
+    host: 127.0.0.1
+    port: 5672
+    username: suyoupeng
+    password: 1234567
+    virtual-host: /
+    listener: logs
+      simple:
+        acknowledge-mode: manual	# 必须开启，业务
